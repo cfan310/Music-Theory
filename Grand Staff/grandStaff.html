@@ -21,16 +21,29 @@
             <div class="staff-item staff-line"></div>
             <div class="staff-item staff-space"></div>
             <div class="staff-item staff-line"></div>
-            <object data="trebleClef.svg" width="100px" height="300px"></object>
+            <object class="trebleClefObject" data="trebleClef.svg" width="100px" height="300px"></object>
             <div class="staff-item staff-space"></div>
             <div class="staff-item staff-line"></div>
             <div class="staff-item staff-space"></div>
-            <div class="staff-item staff-line"></div>
+            <div class="staff-item staff-line"><object class="noteMarker" data="staffNote.svg" height="50px" width="55px"></object></div>
             <div class="staff-item staff-space"></div>
             <!-- this will pop up automatically when the note randomizer gets to c. Then the ledger line and staff line will display. 
             <div class="leger-item ledger-line">C</div>
             -->
-    </div>
+        </div>
+
+        <!--We will use js to dynamically add this object to whichever staff line or space it corresponds to 
+        when a note is generated.
+        First a key will be generated (with key svg, for example A major ###, then the note, and finally we will
+        use an algorithm that checks thru all data to see if user input matches the location of the note object. If so,
+        they will be awarded a point. If not, they will not recieve a point and their percentage will decrease.)-->
+
+
+
+
+
+
+
 
     </div>
 

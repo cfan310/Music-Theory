@@ -33,9 +33,14 @@
     width: 40px;
 }
 
-object {
+.trebleClefObject {
     position: absolute;
     left: 0px;
     top: 0px;
+    z-index: 2;
+}
+
+.noteMarker {
+    margin-left: 100px;
     z-index: 2;
 }
