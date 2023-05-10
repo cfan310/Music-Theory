@@ -8,6 +8,37 @@
     --fretboard-height: 310px;
 }
 
+/*TEST STRING / FRET OVERLAY*/
+
+.container {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin: 30px;
+  }
+  .box {
+height: 10px;
+width: 140px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 100;
+    background: silver;
+  }
+  .overlay {
+    width: 20px;
+    height: 150px;
+    z-index: 9;
+    margin: 3px;
+    background: black;
+  }
+
+
+
+
+
+
+
 /*FRETBOARD*/
 
 .fretboard-neck {
@@ -19,17 +50,27 @@
 }
 
 .string {
-    /*
     height: 10px;
-    width: 100%;
+    width: 300px;
     background-color: silver;
-    margin-top: 7px;*/
+    margin-top: 7px;
+    z-index: 2;
 }
 
 .fret {
     height: 310px;
     width: 10px;
     background-color: black;
+    z-index: 1;
+    position: relative;
+}
+
+.fret::before {
+    height: 10px;
+    width: 3px;
+    background-color: silver;
+    margin-top: 7px;
+    z-index: 2;
 }
 
 
