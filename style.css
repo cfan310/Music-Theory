@@ -4,6 +4,26 @@
     /*border: solid 2px red;*/
 }
 
+/*FRETBOARD*/
+
+.fretboard-neck {
+    height: 300px;
+    background-color: rgb(214, 81, 24);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*END OF FRETBOARD*/
 .header-container {
     display: flex;
     height: 20px;
@@ -16,7 +36,6 @@
 }
 
 .home-logo {
-
 
 }
 
