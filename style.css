@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    /*border: solid 2px red;*/
+    border: solid 2px red;
 }
 
 :root {
@@ -10,26 +10,29 @@
 
 /*TEST STRING / FRET OVERLAY*/
 
+
 .container {
     width: 150px;
     height: 150px;
     position: relative;
     margin: 30px;
   }
+
   .box {
-height: 10px;
-width: 140px;
+    height: 10px;
+    width: 140px;
     position: absolute;
     top: 0;
     left: 0;
     opacity: 100;
     background: silver;
   }
+
   .overlay {
     width: 20px;
     height: 150px;
-    z-index: 9;
-    margin: 3px;
+    z-index: 11;
+    margin: 5px;
     background: black;
   }
 
