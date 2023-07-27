@@ -6,3 +6,5 @@
 // then use js to create function that displays the fretboard dymically
 
 let keyboard2 = document.getElementById("keyboard2");
+
+let keyboard3 = document.getElementById("keyboard23");
