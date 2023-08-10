@@ -10,3 +10,7 @@ let keyboard2 = document.getElementById("keyboard2");
 let keyboard3 = document.getElementById("keyboard23");
 
 // keyboard 3 will hold the 5th octave for the time being
+
+let marker;
+
+let clicker;
